@@ -1,0 +1,21 @@
+.cabecalho {
+    background-color: rgb(255, 153, 0);
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.formJs {
+    margin-left: 30px;
+}
+.buttonSave {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10%;
+}
+.formRemove {
+    background-color: red;
+    color: white;
+}
+div#tabela {
+    margin-left: 30px;
+}

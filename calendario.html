@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendario 7dayofcode</title>
+    <link rel="stylesheet" href="calendario.css">
+</head>
+<body>
+        <div class="cabecalho">
+            <h1>Aniversariante Do Mês</h1>
+        </div>
+
+    <form class="formJs">
+        <label for="nome">
+            <p>Nome da Pessoa</p>
+            <input class="form_name" id="nome" minlength="3" maxlength="120" pattern="[A-Za-zÀ-ú\s]+" name="nome" required type="text">
+
+            <label for="aniversario">
+                <p>Data de aniversário</p>
+                <input class="form_date" id="aniversario" name="aniversario" required type="date" pattern="(0[1-9]-|[12][0-9]|3[01])/(0[1-9]|1[0-2]/\d{4})">
+            </label><br><br>
+            <button type="submit" class="buttonSave">Salvar</button>
+        </label>
+    </form><br>
+    <div id="tabela"></div>
+    <script src="calendario.js"></script>
+</body>
+</html>
